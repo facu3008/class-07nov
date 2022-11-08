@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Site</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* margin: 0; */
+        }
+        body {
+            color: #333;
+            font-family:Arial, Helvetica, sans-serif;
+            line-height: 1.4;  
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        #header {
+            margin-bottom: 15px;
+            background: #333;
+            /* background-color: #333; */
+            color: white;
+            padding: 10px;
+        }
+        #main {
+            float:left;
+            width: 69%;
+        }
+        #sidebar {
+            float:right;
+            width: 29%;
+        }
+        .clr{
+            clear: both;
+            
+        }
+        #footer {
+           
+            background: #333;
+           
+            color: white;
+            padding: 10px;
+
+        }
+        .text-center {
+            display: block;
+            text-align: center;
+        }
+        .card{
+            background: #421212; ;
+            padding: 20px ;
+            margin: 10px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <HEADER></HEADER> -->
+    <header id="header" class="card text-center">
+        <h1>My wqebsite</h1>
+        <p >Just another wqebsite</p>
+    </header>
+    <!-- MAIN content -->
+    <main id="main">
+        <!-- Welcome section -->
+        <section id="welcome" class="card">
+            
+            <h2>Welcome to our webSite</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum reprehenderit, nam maxime quod corporis soluta odio autem dolorem fugiat odit totam voluptatibus nostrum sapiente eius quisquam dolorum quaerat nulla!
+                <a href="#">Click for more</a>
+            </p>
+        </section>        
+
+        
+            <article id="">
+                <h2>article 1
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quaerat nihil? Hic perspiciatis iste minus, dolore sit doloremque rerum molestiae! Temporibus neque fugit deserunt aspernatur sed corporis, voluptates magni optio.          </p>
+
+
+            </article>            
+            <article id="">
+                <h2>article 2
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quaerat nihil? Hic perspiciatis iste minus, dolore sit doloremque rerum molestiae! Temporibus neque fugit deserunt aspernatur sed corporis, voluptates magni optio.          </p>
+
+
+            </article>            
+            <article id="">
+                <h2>article 3
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quaerat nihil? Hic perspiciatis iste minus, dolore sit doloremque rerum molestiae! Temporibus neque fugit deserunt aspernatur sed corporis, voluptates magni optio.          </p>
+
+
+            </article>            
+
+        
+        
+    </main>
+
+    <!-- aside content -->
+    <aside id="sidebar" class="card" >
+        <h3>Navigation</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Contact</a></li>
+                <li><a href="contact.html">About</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <button>Contact Us</button>
+        <ul>
+            <li><strong>Addres:</strong>1234 Abbery road, 08012, UK</li>
+            <li><strong>Phone:</strong>+49 2224 5456</li>
+            <li><strong>Email:</strong>info@abbery.uk</li>
+        </ul>
+    </aside>
+<div class="clr"></div>
+    /* footeer content */
+    <footer id="footer" class="text-center">
+        <p>Copyright &copy;; my webSite 2022</p>
+    </footer>
+</body>
+</html>

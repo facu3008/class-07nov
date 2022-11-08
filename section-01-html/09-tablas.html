@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        img {
+            /* display: block; */
+            width: 40%;
+            height: 15%;
+            margin: 1rem ;
+        }
+
+        #foodTable{
+            /* background-color: grey; */
+            border: 3px solid black;
+        }
+        .name, .img, .origen, .rate{
+            border: 1px solid black;
+            margin: 20px;
+        }
+        .img {
+            text-align: center;
+        }
+        .empanada, .asado {
+            border: 1px solid black; 
+            background-color: lightblue;
+            text-align: center;
+        }
+        .arepas, .paella{ 
+            border: 3px solid black;
+            color: red;
+            text-align: center;
+        }
+        th, td{
+            border: 1px solid black; 
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="#ultimoParrafo">Llevame al ultimo Parrafo</a>
+    <!-- table element
+    tr define columna
+    th encavezado
+    td define el contenido de tabla -->
+    <h1>Tabla ejemplo clase</h1>
+    <table>
+        <tr>
+            <th>Artista</th>         
+            <th>Genero</th>         
+            <th>Pais de origen</th>         
+        </tr>
+        <tr>
+            <td>The Strokes</td>
+            <td>Rock</td>
+            <td>New York, USA</td>
+        </tr>
+        <tr>
+            <td>Back Street Boys</td>
+            <td>Pop</td>
+            <td>Orlando, Florida</td>
+        </tr>
+        <tr>
+            <td>Black Sabbath</td>
+            <td>Metal-Rock</td>
+            <td>Birminghan, England</td>
+        </tr>
+    </table>
+    <h2>Ejemplo de tabla 2</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>WEdnesday</th>
+            <th>jueves</th>
+            <th>viernes</th>
+            <th>sabado</th>            
+            <th>Sunday</th>            
+        </tr>
+        <tr>
+            <td>09:00 - 21:00</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>12:00 - 18:00</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2 style="text-align:center ;">Practica de TABLA comidas</h2>
+    <table id="foodTable">
+        <tr>
+            <th class="name"> Nombre </th>
+            <th class="img"> Imagen</th>
+            <th class="origen"> Origen</th>
+            <th class="rate"> Rating (1-5)</th>
+        </tr>
+        <tr class="empanada">
+            <td>Empanada</td>
+            <td><img src="./assets/img/empanadas.jpg" alt="empanadas"></td>
+            <td>Argentina</td>
+            <td>4</td>
+        </tr>
+        <tr class="arepas">
+            <td>Arepas</td>
+            <td><img src="./assets/img/arepas.jpeg" alt=""></td>
+            <td>Colombia/Venezuela</td>
+            <td>4</td>
+        </tr>
+        <tr class="asado">
+            <td>Asado</td>
+            <td><img src="./assets/img/asado.jpeg" alt=""></td>
+            <td>Argentina</td>
+            <td>5</td>
+        </tr>
+        <tr class="paella">
+            <td>Paella</td>
+            <td><img src="./assets/img/paella.jpeg" alt="Paella"></td>
+            <td>España</td>
+            <td>4</td>
+        </tr>
+
+    </table>
+    <p id="ultimoParrafo"></p>
+</body>
+</html>

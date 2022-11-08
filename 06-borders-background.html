@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border and background</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: "Roboto", sans-serif;
+    }
+    #box-1 {
+        background-color:blue;
+        /* border-width: 3px;
+        border-color: brown;
+        border-style: solid; */
+
+        border: 8px solid white ;
+        border-radius: 20px;
+    }
+
+    #box-2{
+        background-color: pink;
+        color: black;
+        border-top: darkblue 3px dashed;
+
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 15px;
+     }
+     #box-3{
+        background-color: green;
+        color: white;
+        /* border-radius: 10px 20px 15px 40px; */
+        border-color: yellow blue;
+        border-radius: 20px 50px;
+        border-style: solid dashed;
+     }
+     #box-4{
+        background-color: aquamarine;
+        background-image: url(./section-02-css/images/rollings.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 300px;
+        width: 600px;
+        
+     }
+
+     #box-5 {
+        background-image: url(./imgs/logo\ Iron.png);
+        /* background:  no-repeat center center; */
+        background-attachment: inherit;
+
+     }
+
+</style>
+<body>
+    <div id="box-1">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+    <div id="box-2">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+    <div id="box-3">
+        <h3>Box three</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+    <div id="box-4">
+        <h3>Box Four</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+    <div id="box-5">
+        <h3>Box Five</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+
+</body>
+</html>

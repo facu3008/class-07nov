@@ -1,5 +1,7 @@
 ## Curso de IronHack
 
+![IronHack Logo](./imgs/logo%20Iron.png)
+
 <hr>
 Quien soy?
 

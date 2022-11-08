@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Margin and Padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 8px;
+            /* outline: 1px solid red !important; */
+            box-sizing: border-box;
+        }
+
+        .box{
+            background-color: #f4f4f4;
+            border: 2px green solid;
+
+            width: 50%;
+            padding: 20px;
+            margin-top: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi, dignissimos in dolores perferendis officia. Minus quo a quia, perferendis corporis, assumenda accusamus reprehenderit voluptate blanditiis esse saepe suscipit vitae!</p>
+    </div>
+</body>
+</html>
