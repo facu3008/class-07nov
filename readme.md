@@ -13,8 +13,8 @@ Estando acá comencé a estudiar programacion por mi cuenta. HAsta que un dia ap
 <hr>
 Este documento recopila notas de clases del curso IronHack
 
-Las notas de cada día estan indicadas por secciones de numero creciente.
-Sumado a dichas secciones, en este documento podrás ver como añadir cambios en tu respositorio local.
+Las notas de cada día estan indicadas dentro de su seccion correspondiente con un archivo de numero creciente y key identificatoria.
+Sumado a dichas secciones, en este documento podrás ver como añadir cambios en tu repositorio local.
 
 - Seccion 1:
   - Tags
@@ -52,3 +52,12 @@ Temas vistos
   - borders
   - colores
   - padding and margin
+
+### CLase 08 / 11
+
+Temas del dia:
+  - Forkear documento y mantenerlo actualizado a la nube..
+    - git push origin main (Sube)
+    - git pull origin main (baja los cambios)
+
+    - Se continua
