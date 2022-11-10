@@ -13,7 +13,36 @@
             --blue: blue;
         }
 
+        /* Selector de agrupacion */
+        #welcome, #about{
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 25px;
+        }
 
+        #prueba > p{
+            color: red;
+        }
+        #prueba > p > p{
+            color: blue;
+        }
+        .first-child-example p:first-child{
+            color: red;
+        }
+        .last-child-example p:last-child{
+            color: blue;
+        }
+
+        .nth-child-example p:nth-child(1){
+            color: yellow;
+        }
+        .nth-child-example-2 p:nth-child(odd){
+            color: green;
+        }
+
+        .firs-type p:first-type{
+            color: pink;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +51,72 @@
             <h2 class="primary-heading">Welcome</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt minima, atque corporis ipsum dolores quos cum ea ad quasi velit voluptatem est aut itaque, esse veritatis aspernatur, autem quae fuga!</p>
         </div>
-    </section>
+        <div id="about">
+
+            <h2>about</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam mollitia corrupti, eos ut laboriosam architecto pariatur dolor earum commodi, incidunt praesentium similique, autem veritatis quisquam soluta totam maiores culpa?</p>
+        </div>
+        <hr>
+        <div id="prueba">
+            <p> 
+            Example 01
+            </p>
+            <div>
+                <p>Example 02</p>
+            </div> 
+        </div>
+
+        <hr>
+        <hr>
+        <div class="pseudo-class-position">
+            <div class="first-child-example">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, dolorum minima! Non assumenda hic quibusdam nihil doloribus quos, natus distinctio, suscipit voluptatibus sed illum iure obcaecati error labore! In, exercitationem.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos eos quas. Repellendus nemo libero culpa porro, numquam temporibus natus eos nam veritatis amet eum, sapiente sequi consequuntur.</p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, dolorum minima! Non assumenda hic quibusdam nihil doloribus quos, natus distinctio, suscipit voluptatibus sed illum iure obcaecati error labore! In, exercitationem.
+                </p>
+<hr>
+                <div class="last-child-example">
+                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                </div>
+                <hr>
+                <div class="nth-child-example">
+                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                </div>
+                <hr>
+                <div class="nth-child-example-2">
+                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore deserunt dignissimos .</p>
+                </div>
+                <hr>
+                <div class="firs-type">
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                </div>
+                <hr>
+                <div class="last-type">
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                    <p>Lorem ipsum dolor sit, amet </p>
+                </div>
+            </div>
+        </div>
+        </section>
     
 </body>
 </html>
