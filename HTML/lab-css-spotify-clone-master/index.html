@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Spotify Clone</title>
+    <!-- don't forget to link your styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        font-family:"Montserrat", 'Courier New', Courier, monospace ;
+        font-size: 16px;
+      }
+      /* SECCION 1 */
+      #navBar {
+        position: fixed;
+        width: 100%;
+        /* margin: 0 50px 0 0; */
+        top:0;
+        background-color: white;
+        height: 5rem;
+        padding: 0 1rem 0 2rem;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      li{ 
+        float: right;
+        padding-right: 25px;
+        /* margin-right: 50rem; */
+        list-style: none;
+        color: black;
+        font-size: 1rem;
+        margin: 0 1rem;
+        flex-direction: column;
+        
+
+      }
+
+      #navBar img{
+        width: 10rem;
+      }
+
+      /* SECCION 2 */
+      #background{
+        background-image: url(./images/landing.jpg);
+        background-position: center center;
+        background-size: cover ;
+        background-repeat: no-repeat;
+        height: 1400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      #background h1, #background  p{
+        color: white;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 6rem;
+        font-weight: 400;
+        text-align: center;
+      }
+      h3{
+        font-size: 3rem;
+      }
+      #spoty h3{
+        text-align: center;
+        text-decoration-color: red;
+        text-decoration-line: underline ;
+      }
+      h4{
+        font-size: 2rem;        
+      }
+
+
+
+      #background >p {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 2rem;
+      }
+      
+      /* SECCION 3 */
+      
+      #spoty {
+        margin: 2rem;
+        padding: 1rem;
+      }
+      #spoty div {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #spoty img{
+        width: 7rem;
+       margin: 4rem 0 0 ;
+
+      }
+      #spoty > div > div{
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+             
+      }
+      #spoty > p, h4 {
+        margin: 1rem;
+      }
+      #spoty h4{
+        color: rgb(12, 203, 56);
+      }
+
+      #green-section{
+        background-color: lightgreen;
+        color: white;
+        padding: 4rem;
+      }
+      #green-section > div{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        gap: 0 10rem
+
+      }
+
+      .spotify-icon img{
+        
+        width: 6rem;
+      }
+      .spotify-app img{
+        width: 25rem;
+      }
+      /* #green-section h4{
+        
+
+      } */
+    </style>
+
+  </head>
+  <body>
+    <section id="navBar">
+      <div>
+        <img src="./images/spotify-logo.png" alt="logo">
+
+      </div>
+      <div>
+        <ul>
+          <li>Premium</li>
+          <li>Discover</li>
+          <li>Help</li>
+          <li>Download</li>
+        </ul>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+
+    </section>
+    <section id="background">
+      <h1>Music for everyone.</h1>
+      <p>Spotify is now free on mobile, tablet and computer. Listen to the
+        right music, wherever you are.</p>
+    </section>
+    <section id="spoty">
+    <h3>What’s on Spotify?</h3>
+    <div>
+        <div>
+          <img src="./images/music-icon.png" alt="music-icon">
+          <h4>Millions of Songs </h4>
+          <p>There are millions of songs on Spotify</p>
+        </div>
+        <div>
+          <img src="./images/high-quality-icon.png" alt="high-quality-icon">
+          <h4> HD Music</h4>
+          <p>Listen to music as if you were listening live</p>
+        </div>
+        <div>
+          <img src="./images/devices-icon.png" alt="devices-icon">
+          <h4>Stream Everywhere </h4>
+          <p>Stream music on your smartphone, tablet or computer</p>
+        </div>
+      </div>
+    </section>
+    <section id="green-section">
+      <h3>It’s as yeezy as Kanye West.</h3>
+      <div>
+
+        <div class="text">
+          <h4>Search</h4>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+          <h4>Browse</h4>
+          <p>Check out the
+            latest charts, brand new releases and great playlists for right now.</p>
+            <h4>Discover</h4>
+            <p>Enjoy new music every Monday with your
+              own personal playlist. Or sit back and enjoy Radio.</p>
+        </div>
+        <div class="spotify-icon">
+          <img src="./images/spotify-icon-white.png" alt="spotify-icon-white">
+        </div>
+        <div class="spotify-app">
+          <img src="./images/spotify-app.jpg" alt="spotify-app">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -53,11 +53,26 @@ Temas vistos
   - colores
   - padding and margin
 
-### CLase 08 / 11
+### CLase 09 / 11
 
 Temas del dia:
-  - Forkear documento y mantenerlo actualizado a la nube..
-    - git push origin main (Sube)
-    - git pull origin main (baja los cambios)
 
-    - Se continua
+- Forkear documento y mantenerlo actualizado a la nube..
+
+  - git push origin main (Sube)
+  - git pull origin main (baja los cambios)
+
+  - Formularios y botones
+
+### CLase 10 / 11
+
+- Se comienza el dia repasando laboratiorio clase previa.
+  Temas vistos:
+- Diseño responsive
+  - Media queries @media
+  - Flexbox
+- Inline-Block
+- Posicionamientos:
+  - relativo
+  - absoluto
+-
