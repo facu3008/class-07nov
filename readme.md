@@ -88,3 +88,5 @@ Temas del dia:
       - grid-template-areas and grid-area
 
 - Ejercicio practico: Instagram wepPage (uso combinado de Grid y FlexBox)
+
+### Clase 14/11 **Semana 2**
