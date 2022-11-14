@@ -76,3 +76,15 @@ Temas del dia:
   - relativo
   - absoluto
 -
+
+### CLase 11/11
+
+- Revisión Spotify webpage
+
+#### Grid Basics:
+
+    - diplay: grid.
+      - grid-template-columns and grid-template-rows
+      - grid-template-areas and grid-area
+
+- Ejercicio practico: Instagram wepPage (uso combinado de Grid y FlexBox)

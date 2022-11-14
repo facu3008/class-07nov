@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: 
+            "izquierda centro derecha";
+            gap: 1rem;
+            height: 100vh;
+        }
+        .izquierda, .centro, .derecha {
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+        }
+/* FORMATO PARA LA izquierda DE LA PAGINA */
+
+        .izquierda li img {
+            margin: 0 10px;
+        }
+        .izquierda img{
+            width: 200px;
+        }
+        .izquierda ul li a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        .izquierda ul li {
+            margin-bottom: 10px;
+           display: flex;
+           align-items: center;
+            list-style: none;
+        }
+        .izquierda li img {
+            width: 45px;
+        }
+
+
+
+
+
+/* FORMATO PARA EL CENTRO DE LA PAGINA */
+        .centro > .post{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .post{
+            margin: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* align-content: center; */
+            padding: 5px 0;
+            /* flex-direction: column; */
+            background-color: aqua;
+            border: none;
+            border-radius: 10px
+
+        }
+        .post> div {
+            margin: 0 auto;
+            padding: 0;
+            height: 20vh;
+        }
+        .post img {
+            width: 50px;
+            height: 50px;
+            
+            
+        }
+        .main img {
+            width: auto;
+        }
+        .main  {
+            background-color: red;
+            border: none;
+            margin: 30px;
+            border-radius: 10px;
+            height: 80vh;
+        }
+
+        /* FORMATO PARA la derecha DE LA PAGINA */
+    </style>
+
+
+</head>
+<body>
+    <div class="izquierda">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" alt="insta-logo">
+        <ul>
+            <li><img src="https://www.iburmar.com/WEB/wp-content/uploads/2016/05/icono-casa.jpg" alt="#"><a href="#">Home</a></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" alt="#"><a href="#">Search</a></li>
+            <li><img src="https://cdn.iconscout.com/icon/free/png-256/explore-1781524-1513844.png" alt="#"><a href="#">Explore</a></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/5883/5883507.png" alt="#"><a href="#">Messages</a></li>
+            <li><img src="https://i.pinimg.com/736x/ae/ec/d9/aeecd9f870354f443c35fa5f16896158.jpg" alt="#"><a href="#">Notifications</a></li>
+            <li><img src="https://thumbs.dreamstime.com/b/instagram-plus-sets-upload-flat-color-icon-vector-banner-template-148840467.jpg" alt="#"><a href="#">Create</a></li>
+            <li><img src="https://cdn2.iconfinder.com/data/icons/instagram-outline/19/11-512.png" alt="#"><a href="#">Profile</a></li>
+        </ul>
+    </div>
+    <div class="centro">
+        <div class="post">
+            <div>
+                <img src="./images/rollings.jpeg" alt="persona"> <h1>Pepe</h1>
+            </div>
+            <div>
+                <img src="../imgs/logo Iron.png" alt="persona"> <h1>Juan</h1>
+            </div>
+            <div>
+
+                <img src="../section-01-html/assets/img/leon.jpeg" alt="persona"> <h1>Personas</h1>
+            </div>
+            <div>
+
+                <img src="../section-01-html/assets/img/oso.jpeg" alt="persona"> <h1>Personas</h1>
+            </div>
+        </div>
+        <div class="main">
+            <img src="../section-01-html/assets/img/vaca.jpeg" alt="persona"> <h1>Personas</h1>
+        </div>
+
+    </div>
+    <div class="derecha">
+        
+        <ul>
+            <li>
+                <img src="" alt="#">
+                <div>
+                    <h1></h1>
+                    <h2></h2>
+                </div>
+                <p></p>
+            </li>
+            <li>
+                <img src="" alt="#">
+                <div>
+                    <h1></h1>
+                    <h2></h2>
+                </div>
+                <p></p>
+            </li>
+            <li>
+                <img src="" alt="#">
+                <div>
+                    <h1></h1>
+                    <h2></h2>
+                </div>
+                <p></p>
+            </li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>

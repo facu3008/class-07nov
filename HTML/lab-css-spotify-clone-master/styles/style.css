@@ -6,3 +6,223 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 1px red solid;
+/* Outline es directamente por fuera */
+  /* border opta por padding y se puede interponer con los elementos */
+}
+body{
+  font-family:"Montserrat", 'Courier New', Courier, monospace ;
+  font-size: 16px;
+  color: #1A1A1A;
+}
+/* SECCION 1 */
+#navBar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  /* margin: 0 50px 0 0; */
+  top:0;
+  background-color: #fff;
+  height: 5rem;
+  padding: 0 1rem 0 2rem;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1rem;
+}
+nav a{
+    
+    text-decoration: none;
+    color: black;
+    padding: 0 16px;
+}
+    /* li{ 
+  float: right;
+  padding-right: 25px;
+  margin-right: 50rem;
+  font-size: 1rem;
+  margin: 0 1rem;
+  flex-direction: column;
+  
+
+} */
+
+#navBar img{
+  width: 10rem;
+  padding: 20px;
+}
+
+/* SECCION 2 */
+#background{
+  background-image: url("../images/landing.jpg");
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#background h1, #background  p{
+  color: #FFF;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  /* text-align: center; */
+}
+
+#background > p {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+
+
+/* SECCION 3 */
+
+#spoty h3{
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 5px;
+  font-size: 2.5rem;
+  /* text-decoration-color: red; */
+  
+}
+span{
+  border-bottom: 4px solid red ;
+}
+
+#spoty img {
+  width: 120px;
+  margin-bottom: 2rem;
+}
+
+#spoty div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  width: 90%;
+}
+
+#spoty .interno{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* text-align: center; */
+  width: 30%;
+  /* height: 300px; */
+       
+}
+.interno p  {
+  
+  font-weight: 100;
+  text-align: center;
+
+}
+
+#spoty h4{
+  margin: 10px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #00B172;
+}
+/* SECCION ULTIMA */
+#green-section{
+  background-color: #00B172;
+  color: #FFF;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+#green-section h3 {
+  font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#green-section p{
+    text-align: left;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#green-section h4{
+    font-weight: 500;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.spotify-icon img{
+    
+  
+  width: 6rem;
+  margin-top: 30px;
+}
+.spotify-app img{
+  width: 20rem;
+  margin: 20px;
+}
+.text {
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
+.spotify-icon{
+    width: 10%;
+}
+
+.spotify-app{
+    width: 45%;
+}
+
+@media (max-width:700px){
+  #green-section{
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+   margin: 40px 0;
+  }
+}
+
+@media (max-width:600px){
+  
+  .spotify-app{
+    display: none;
+  }
+}

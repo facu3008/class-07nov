@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body> div{
+            /* width: 50px;
+            height: 50px; */
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin: 10px 0 0;
+        }
+        .box-1{
+            
+            background-color: aquamarine;
+        }
+        .box-2{
+            background-color: blue;
+            padding-left: 20px;
+            padding-bottom: 300px;
+            padding-right: 20px;
+           
+
+            
+        }
+        .box-3{
+            background-color: red;
+
+        }
+        .circular-div {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+
+/* <!-- POSICIONAMIENTO --> */
+.box {
+  border: 2px solid;
+  font-family: Arial;
+  font-size: 15px;
+  width: 500px;
+}
+.not-relative {
+  border-color: #00D1AE;
+}
+.relative {
+  position: relative;
+  border-color: #3B3BFF;
+  left: 10px;
+  top: 10px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #00D1AE;
+  opacity: 0.8;
+  color: #111;
+  border: 3px solid #00D1AE;
+  font-weight: bold;
+  padding: 10px;
+  width: 500px;
+}
+
+.absolute {
+  border-color: #3B3BFF;
+  position: absolute;
+}
+
+.absolute-second {
+  top: 100px;
+  left: 500px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <div class="box-2">caja dos</div>
+    <div class="box-3"></div>
+    <div class="circular-div"></div>
+
+<!-- POSICIONAMIENTO -->
+<H1>POSICIONAMIENTO</H1>
+<div class="not-relative box">
+    This is the content inside the element with the class .not-relative
+  </div>
+  <h3>relative</h3>
+  <div class="relative box">
+      This is the content inside the element with the class .relative.
+    </div>
+    
+    <!-- <div class="relative-2 box">
+        This is the content inside the element with the class .relative-2.
+    </div> -->
+    
+    <h3>FIJO</h3>
+  <div class="fixed">
+    This div is right-bottom positioned. It's a fixed position div.
+  </div>
+  
+  <p>
+    Lucas ipsum dolor sit amet maul coruscant mara mon sidious aayla secura sidious amidala moff. Darth anakin darth windu fisto. </p>
+
+
+<h3> absolute</h3>
+
+    <div class="relative">
+        Container positioned relatively
+      </div>
+      
+      <div class="absolute">
+        Container positioned absolutelly
+      </div>
+      
+      <div class="absolute">
+        This falls right on top of the previous container
+      </div>
+      
+      <div class="absolute absolute-second">
+        Second container positioned absolutelly
+      </div>
+    
+</body>
+</html>
