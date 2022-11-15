@@ -90,3 +90,34 @@ Temas del dia:
 - Ejercicio practico: Instagram wepPage (uso combinado de Grid y FlexBox)
 
 ### Clase 14/11 **Semana 2**
+
+Comienza seccion de Javascript
+
+### Temas del dia
+
+- Basico del JS. Como linkear documentos html con JS
+
+  - con script al final del body
+  - Con Script src (similar a css)
+
+- Tipo de datos
+  - numeros
+  - strings
+  - Booleanos
+  - null
+  - undefined
+  - symbolos - — that's guaranteed to be unique.
+  -
+- Variables
+  - let
+  - var
+  - const
+- Operadores:
+  - Aritmeticos
+  - Comparacion
+  - Asignacion
+  - Logicos
+- Condicionales
+  - if
+  - else
+  - else if
