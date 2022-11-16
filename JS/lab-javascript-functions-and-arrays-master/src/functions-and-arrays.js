@@ -26,22 +26,23 @@ function findLongestWord(words) {
   if (words.length == 0) {
     return null;
   } else {
-    let word = "";
+    let palabra = "";
     for (let i = 0; i < words.length; i++) {
-      if (word.length < words[i].length) {
-        word = words[i];
+      if (palabra.length < words[i].length) {
+        palabra = words[i];
       }
     }
-    return word;
+    return palabra;
   }
 }
 // function findLongestWord(words) {
-//   return words.reduce((a, b) => (a.length > b.length ? a : b));
+//   return words.forEach((a, b) => (a.length > b.length ? a : b));
 // }
 
 console.log(findLongestWord(words));
 
 // Iteration #3: Calculate the sum
+
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
 function sumNumbers(numbers) {
@@ -56,8 +57,26 @@ console.log(sumNumbers(numbers));
 
 sumNumbers(numbers);
 console.log(sumNumbers(numbers));
+
 // Iteration #3.1 Bonus:
-function sum() {}
+
+const mixedArr = [6, 12, "miami", 1, true, "barca", "200", "lisboa", 8, 10];
+function sum(mixedArr) {
+  let contador = 0;
+  mixedArr.forEach((element) => {
+    if (typeof element === "number") {
+      contador = contador + element;
+    } else if (element === true) {
+      contador = contador + 1;
+    } else if (typeof element === "string") {
+      contador = contador + element.length;
+    } else {
+      contador += 0;
+    }
+  });
+  return contador;
+}
+console.log(sum(mixedArr));
 
 // Iteration #4: Calculate the average
 // Level 1: Array of numbers
@@ -104,7 +123,26 @@ function averageWordLength(wordsArr) {
 }
 
 // Bonus - Iteration #4.1
-function avg() {}
+
+function avg(mixedArr) {
+  let contador = 0;
+  let mixedArrLength = mixedArr.length;
+  mixedArr.forEach((element) => {
+    if (typeof element === "number") {
+      contador = contador + element;
+    } else if (element === true) {
+      contador = contador + 1;
+    } else if (typeof element === "string") {
+      contador = contador + element.length;
+    } else {
+      contador += 0;
+    }
+  });
+  average = contador / mixedArrLength;
+  return average;
+}
+// function avg() {}
+// esto se puede resolver reutilizando las funciones hechas anteriormente
 
 // Iteration #5: Unique arrays
 const wordsUnique = [
@@ -121,7 +159,14 @@ const wordsUnique = [
   "bring",
 ];
 
-function uniquifyArray() {}
+function uniquifyArray(wordsUnique) {
+  let result = wordsUnique.filter((element, i) => {
+    return wordsUnique.indexOf(element) === i;
+  });
+  return result;
+}
+
+console.log(uniquifyArray(wordsUnique));
 
 // Iteration #6: Find elements
 const wordsFind = [
@@ -135,7 +180,12 @@ const wordsFind = [
   "disobedience",
 ];
 
-function doesWordExist() {}
+function doesWordExist(wordsFind, element) {
+  if (wordsFind.length == 0) {
+    return null;
+  } else return wordsFind.includes(element);
+}
+console.log(doesWordExist(wordsFind, "machine"));
 
 // Iteration #7: Count repetition
 const wordsCount = [
