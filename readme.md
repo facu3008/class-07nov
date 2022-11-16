@@ -93,7 +93,7 @@ Temas del dia:
 
 Comienza seccion de Javascript
 
-### Temas del dia
+#### Temas del dia
 
 - Basico del JS. Como linkear documentos html con JS
 
@@ -121,3 +121,30 @@ Comienza seccion de Javascript
   - if
   - else
   - else if
+
+### Clase 14/11 **Semana 2**
+
+#### Temas del dia
+
+- Switch conditional
+
+  - Simple Case
+  - Multiple Case
+  - La importancia del Break
+
+- Funciones:
+
+  1. Funciones simples
+  2. Funciones con parámetros
+  3. Funciones tipo flecha
+
+  - Invocar a la funcion
+  - return dentro de funcion ()
+
+- Loops:
+
+  1. Ciclo for
+  2. Ciclo While
+
+- Metodos de Arrays:
+  1. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
