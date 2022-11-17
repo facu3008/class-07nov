@@ -122,7 +122,7 @@ Comienza seccion de Javascript
   - else
   - else if
 
-### Clase 14/11 **Semana 2**
+### Clase 15/11 **Semana 2**
 
 #### Temas del dia
 
@@ -148,3 +148,56 @@ Comienza seccion de Javascript
 
 - Metodos de Arrays:
   1. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+### Clase 15/11 **Semana 2**
+
+#### Temas del dia: DOM-Manipulation
+
+- Acceso a elementos del DOM
+
+  - getElementById() Method :
+    - console.log(document.getElementById("wutang"));
+  - getElementsByClassName() Method:
+    - console.log(document.getElementsByClassName("wuTang"));
+  - getElementsByTagName() Method:
+    - console.log(document.getElementsByTagName("h5")[0])
+  - querySelector() Method:
+    1. console.log(document.querySelector("#query-selector"));
+    2. console.log(document.querySelector(".hipHop"));
+    3. console.log(document.querySelector("h5"));
+    4. console.log(document.querySelector("body"));
+    5. console.log(document.querySelector("#query-selector .hipHop .myLove"));
+
+- Recorrer el nodo
+
+  - parentNode:
+    - console.log(document.querySelector("#second-child").parentNode);
+    - console.log(document.querySelector("#second-child").parentElement);
+  - childrenNodes:
+    - console.log(document.querySelector("#traverse-document").children);
+    - console.log(document.querySelector("#traverse-document").children[2]);
+  - firstElementChild
+  - lastElementChild: console.log(document.querySelector("#traverse-document").lastElementChild);
+  - nextElementSibling
+  - previousElementSibling
+
+- Crear Elementos en el DOM
+
+  - método createElement()
+    - const createElement = document.createElement("div");
+    - Verifico si se creo: console.log(createElement)
+
+- Agegar mensaje con innerHTML:
+
+  - createElement.innerHTML = "JS es demasiado cool!
+
+- Anexar elemento creado en js al doc de HTML
+  Se busca algun elemento del dom que este enm el body y se usa metodo appendChild
+  - let parentElement = document.querySelector("#parent").appendChild(createElement);
+  -
+  -
+- Reemplazar un elemento hijo
+
+- Eliminar un elemento hijo
+
+Asi como se puede acceder al DOM, crear y modificar nodos. Se puede acceder al estilo aplicado y personalizar la pagina a nuestro agrado
