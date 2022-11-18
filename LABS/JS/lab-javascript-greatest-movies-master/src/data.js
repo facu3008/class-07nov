@@ -2001,4 +2001,10 @@ const movies = [
     score: 8,
   },
 ];
+// function orderByYear(moviesArray) {
+//   moviesArray.year;
+//   return moviesArray.year;
+// }
+// console.log(orderByYear(moviesArray));
+
 console.log(movies.length);
