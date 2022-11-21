@@ -149,7 +149,7 @@ Comienza seccion de Javascript
 - Metodos de Arrays:
   1. https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-### Clase 15/11 **Semana 2**
+### Clase 16/11 **Semana 2**
 
 #### Temas del dia: DOM-Manipulation
 
@@ -201,3 +201,50 @@ Comienza seccion de Javascript
 - Eliminar un elemento hijo
 
 Asi como se puede acceder al DOM, crear y modificar nodos. Se puede acceder al estilo aplicado y personalizar la pagina a nuestro agrado
+
+### Clase 18/11 **Semana 2**
+
+#### Temas del dia: Asyncronismo
+
+- Callbacks: Una funcion llama a otra funcion.
+  Se usa para esperar el resultado de una llamada a una funcion anterior, para luego ejecutarse
+  Se apoya en el metodo setTimeout().
+
+  - Ejemplo:
+    - function greetCallBackThree() {
+    - console.log(`Hello Homies!`)}
+    - function sayMyName(name) {
+    - console.log(`Hello ${name}`)}
+
+  // calling thefunction
+
+  // setTimeout(greetCallBackThree, 3000);
+
+  - se llama a la funcion pero se ejecuta luego de 3 segundos
+    // sayMyName("Facu");
+
+    - https://www.freecodecamp.org/espanol/news/funciones-callback-en-javascript-que-son-los-callback-en-js-y-como-usarlos/
+
+#### Se torna engorroso leer el codigo y entenderlo
+
+### Promesas
+
+##### En JavaScript, una promesa es una buena manera de manejar las operaciones asíncronas. Se utiliza para saber si la operación asíncrona se ha completado con éxito o no.
+
+#### SYNTAX: promiseObject.then(onFulfilled, onRejected);
+
+##### El método then() se utiliza para encadenar las funciones a la promesa. El método then() se llama cuando la promesa se resuelve con éxito.
+
+##### El método catch() se utiliza con el callback cuando la promesa es rechazada o si se produce un error. Por ejemplo,
+
+##### También puedes utilizar el método finally() con las promesas. El método finally() se ejecuta cuando la promesa se resuelve con éxito o se rechaza.
+
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+### async/await
+
+##### La finalidad de las funciones async/await es simplificar el comportamiento del uso síncrono de promesas y realizar algún comportamiento específico en un grupo de Promises. Del mismo modo que las Promises son semejantes a las devoluciones de llamadas estructuradas, async/await se asemejan a una combinación de generadores y promesas.
+
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function
+
+#### Para manejar los errores y respuestas positivas en este caso se utliza las palabras reservadas try y catch
