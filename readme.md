@@ -248,3 +248,20 @@ Asi como se puede acceder al DOM, crear y modificar nodos. Se puede acceder al e
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function
 
 #### Para manejar los errores y respuestas positivas en este caso se utliza las palabras reservadas try y catch
+
+### **SEMANA 3**
+
+#### Clases de 21 al 25 de noviembre
+
+Se trabaja en el Mid Term Project. Con entrega y presentación al día 25 de noviembre
+
+### **SEMANA 4**
+
+#### Clase Lunes 28/11:
+
+Principios de Vue.
+
+- Instalacion y ejecucion
+- Reactividad en los proyectos
+- metodos ref() y reactive ()
+- v-text v-html y v-bind
