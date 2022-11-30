@@ -8,8 +8,10 @@
         <p>Hola mi nombre es {{myInfo.name}} {{myInfo.surname}}, tengo {{myInfo.edad}} y mis hobbies son {{myInfo.hobbies[0]}}, {{myInfo.hobbies[1]}} y {{myInfo.hobbies[2]}}. Mi pelicula preferida es {{pelipreferida}} y la vi {{peliVista}}</p>
         
         
+        <!-- <div v-text="" >
+
+        </div> -->
     </div>
-<div v-text="" ></div>
 </template>
 
 <!-- aca adento es donde colocaremos nuestro JS -->

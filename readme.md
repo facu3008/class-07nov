@@ -265,3 +265,15 @@ Principios de Vue.
 - Reactividad en los proyectos
 - metodos ref() y reactive ()
 - v-text v-html y v-bind
+
+#### Clase Lunes 28/11:
+
+- Conditional Rendering
+  v-if
+  v-else
+  v-else-if
+  v-show
+- Iterating elements
+  v-for
+
+- Comienza Lab del dia

@@ -8,19 +8,12 @@ import primerComponenteVue from "./components/vueBasics/primerComponente.vue";
 
     <header>
       <div class="wrapper">
-        <HelloWorld msg="Vue Basics Class" />
+        <HelloWorld msg="Lab Vue Setup " />
       </div>
     </header>
-    <primerComponenteVue />
     <main>
+      <primerComponenteVue />
       
-      <!-- <MyFirstComponentVue /> -->
-      <!-- <hr /> -->
-      <!-- <TextDirective /> -->
-      <!-- <hr /> -->
-      <!-- <HtmlDirective /> -->
-      <hr />
-      <!-- <AttributeBinding /> -->
     </main>
   </div>
   </template>
