@@ -5,7 +5,7 @@ import TextDirectiveVue from './components/vueBasics/2-TextDirective.vue';
 import HtmlDirective from './components/vueBasics/3-HtmlDirective.vue';
 import ejercicioalexvue from './components/vueBasics/05-ejerciciosAlex.vue';
 import ejercicioAlex2 from "./components/vueBasics/07-ejerciciosAlex.vue"
-
+import props from "./components/vueBasics/propiedades.vue"
 </script>
 
 <template>
@@ -15,7 +15,9 @@ import ejercicioAlex2 from "./components/vueBasics/07-ejerciciosAlex.vue"
       
       
       <div class="wrapper">
-        <HelloWorld msg="Facu ens mi nombre!" />
+        <!-- <HelloWorld msg="Facu ens mi nombre!" /> -->
+        <h2>Utilizando el props metodo</h2>
+        
       </div>
     </header>
     
@@ -23,8 +25,12 @@ import ejercicioAlex2 from "./components/vueBasics/07-ejerciciosAlex.vue"
       <!-- <MyFirstComponentVue/>
       <TextDirectiveVue/>
       <HtmlDirective/> -->
-      <!-- <ejercicioalexvue/>  -->
-      <ejercicioAlex2/>>
+      <!-- <ejercicioalexvue/>  -->       
+      <!-- <ejercicioAlex2/>> -->
+      
+
+      <props name="Nombre a mano"/>       
+      <props />       
     </main>
   </div>
 </template>

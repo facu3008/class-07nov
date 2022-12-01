@@ -9,21 +9,29 @@
         <hr>
         <br>
         <!-- Ejercicio 2 -->
+
         <h2>Ejercicio numero 2</h2>
         <hr>
         <br>
+        <h3>Expresion simple</h3>
+        <p>{{(number1 +number2)}}</p>
+        
+        <h3>Resultado de una funcion</h3>
         <p> La suma de {{a}} + {{b}} es igual a {{suma(a,b)}}</p>
         
+        <h3>Pasando un string por medio de una funcion</h3>
+        <p>string</p>
+
         <br>
         <hr>
         <!-- Ejercicio 3 -->
         <h2>Ejercicio numero 3</h2>
         <hr>
         <br>
-        <p v-if="dataBolean === true"> El dato ingresado es {{dataBolean}}</p>
+        <p v-if="dataBolean"> El dato ingresado es {{dataBolean}}</p>
         <p v-else> El dato ingresado es {{dataBolean}}</p>
         
-        <!-- <p v-show="dataBolean === false"> El dato ingresado es {{dataBolean}} </p> -->
+        <p v-show="dataBolean"> El dato ingresado es {{dataBolean}} </p>
         
         
         <br>
@@ -39,7 +47,7 @@
                  <h3>  {{data.title}} </h3>
                  <h4>{{data.description}}</h4>
                  <p>{{data.content}}</p>
-                 <hr>
+                
 
             </li>
         </ul>
@@ -65,14 +73,20 @@
 import {ref, reactive} from "vue"
 
 // ejercicio dos
+const number1 = ref(3)
+
+const number2 = ref(6)
+
 const a = ref(2)
 const b = ref(4)
 function suma(a,b){
     return a + b
 }
-function helloWorld(){
-    console.log("Hola")
-}
+
+// string=()=>{
+//     return "Un string pasado como funcion"
+// }
+
 // ejercicio tres
 
 const dataBolean = ref(false)

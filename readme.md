@@ -266,7 +266,7 @@ Principios de Vue.
 - metodos ref() y reactive ()
 - v-text v-html y v-bind
 
-#### Clase Lunes 28/11:
+#### Clase Martes 29/11:
 
 - Conditional Rendering
   v-if
@@ -277,3 +277,9 @@ Principios de Vue.
   v-for
 
 - Comienza Lab del dia
+
+#### Clase Miercoles 30/11:
+
+- Revision de lab
+- slots: https://v2.vuejs.org/v2/guide/components-slots.html
+- props: https://v2.vuejs.org/v2/guide/components-props.html
