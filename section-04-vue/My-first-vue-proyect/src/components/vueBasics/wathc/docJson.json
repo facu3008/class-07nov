@@ -1,0 +1,17 @@
+[
+  {
+    "answer": "yes",
+    "return": "Te gusta la pizza",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"
+  },
+  {
+    "answer": "no",
+    "return": "Que raro eres",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"
+  },
+  {
+    "answer": "",
+    "return": "Dame una respuesta",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"
+  }
+]

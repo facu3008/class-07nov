@@ -283,3 +283,14 @@ Principios de Vue.
 - Revision de lab
 - slots: https://v2.vuejs.org/v2/guide/components-slots.html
 - props: https://v2.vuejs.org/v2/guide/components-props.html
+
+#### Clase Jueves 01/12:
+
+- Metodos
+- Porpiedades computadas
+
+#### Clase Viernes 02/12:
+
+- Watchers
+- Manejadores de Eventos
+- Hooks: Ciclos de vida

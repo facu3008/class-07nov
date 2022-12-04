@@ -8,6 +8,9 @@ import ejercicioAlex2 from "./components/vueBasics/07-ejerciciosAlex.vue"
 import props from "./components/vueBasics/propiedades.vue"
 import ComputedProperties from "./components/vueBasics/8-computeProperties.vue";
 import TwoWayData from "./components/vueBasics/9twowaydataexercise.vue"
+import watch from "./components/vueBasics/wathc/watch.vue"
+import ParentComponent from "./components/vueBasics/customEvents/ParentComponent.vue"
+import General from "./components/vueBasics/customEvents/General.vue"
 </script>
 
 <template>
@@ -32,7 +35,10 @@ import TwoWayData from "./components/vueBasics/9twowaydataexercise.vue"
       <!-- <props name="Nombre a mano"/>        -->
       <!-- <props />        -->
       <!-- <ComputedProperties/> -->
-      <TwoWayData/>
+      <!-- <TwoWayData/> -->
+      <!-- <watch/> -->
+      <!-- <ParentComponent/> -->
+      <General/>
     </main>
   </div>
 </template>
